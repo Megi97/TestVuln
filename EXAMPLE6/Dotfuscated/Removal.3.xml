@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dotfuscatorRemoval SYSTEM "http://www.preemptive.com/dotfuscator/dtd/dotfuscatorRemoval_v1.0.dtd">
+<dotfuscatorRemoval version="1.0">
+    <header>
+        <timestamp>2022-06-14T10:49:23</timestamp>
+        <product version="6.4.2+b8a3c340ba" user="megi.teneqexhi@univie.ac.at">PreEmptive Protection Dotfuscator Professional EVALUATION</product>
+    </header>
+    <detail>
+        <module pruned="false">
+            <name>EXAMPLE6.dll</name>
+            <resourcelist />
+            <methodlist />
+            <fieldlist />
+            <propertylist />
+            <eventlist />
+            <type pruned="false">
+                <name>Microsoft.CodeAnalysis.EmbeddedAttribute</name>
+                <methodlist>
+                    <method pruned="false">
+                        <signature>void()</signature>
+                        <name>.ctor</name>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type pruned="false">
+                <name>System.Runtime.CompilerServices.NullableAttribute</name>
+                <methodlist>
+                    <method pruned="false">
+                        <signature>void(unsigned int8)</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method pruned="false">
+                        <signature>void(unsigned int8[])</signature>
+                        <name>.ctor</name>
+                    </method>
+                </methodlist>
+                <fieldlist>
+                    <field pruned="false">
+                        <signature>unsigned int8[]</signature>
+                        <name>NullableFlags</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type pruned="false">
+                <name>System.Runtime.CompilerServices.NullableContextAttribute</name>
+                <methodlist>
+                    <method pruned="false">
+                        <signature>void(unsigned int8)</signature>
+                        <name>.ctor</name>
+                    </method>
+                </methodlist>
+                <fieldlist>
+                    <field pruned="false">
+                        <signature>unsigned int8</signature>
+                        <name>Flag</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type pruned="false">
+                <name>example6.Example6</name>
+                <methodlist>
+                    <method pruned="false">
+                        <signature>void()</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method pruned="false">
+                        <signature>void(string[])</signature>
+                        <name>Main</name>
+                    </method>
+                    <method pruned="false">
+                        <signature>int32()</signature>
+                        <name>printSum</name>
+                    </method>
+                    <method pruned="false">
+                        <signature>void()</signature>
+                        <name>printtext</name>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type pruned="false">
+                <name>example6.productsCode</name>
+                <methodlist />
+                <fieldlist>
+                    <field pruned="false">
+                        <signature>example6.productsCode</signature>
+                        <name>coffee</name>
+                    </field>
+                    <field pruned="false">
+                        <signature>example6.productsCode</signature>
+                        <name>milk</name>
+                    </field>
+                    <field pruned="false">
+                        <signature>example6.productsCode</signature>
+                        <name>sugar</name>
+                    </field>
+                    <field pruned="false">
+                        <signature>int32</signature>
+                        <name>value__</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+        </module>
+    </detail>
+    <statistics>
+        <statisticline>
+            <description>Total Modules</description>
+            <statistic>1</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Managed Resources</description>
+            <statistic>0</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Types</description>
+            <statistic>6</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Methods</description>
+            <statistic>8</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Fields</description>
+            <statistic>6</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Properties</description>
+            <statistic>0</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Events</description>
+            <statistic>0</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Modules Pruned</description>
+            <statistic>0</statistic>
+            <statistic>0.00 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Managed Resources Pruned</description>
+            <statistic>0</statistic>
+            <statistic>0.00 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Types Pruned</description>
+            <statistic>0</statistic>
+            <statistic>0.00 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Methods Pruned</description>
+            <statistic>0</statistic>
+            <statistic>0.00 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Fields Pruned</description>
+            <statistic>0</statistic>
+            <statistic>0.00 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Properties Pruned</description>
+            <statistic>0</statistic>
+            <statistic>0.00 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Events Pruned</description>
+            <statistic>0</statistic>
+            <statistic>0.00 %</statistic>
+        </statisticline>
+    </statistics>
+</dotfuscatorRemoval>
